@@ -1,5 +1,5 @@
 package = "oocairo"
-version = "1.5-1"
+version = "1.5-2"
 local versionNumber = version:gsub("^(.*)-.-$", "%1")
 source = {
   url = "https://github.com/awesomeWM/oocairo/archive/v"..versionNumber..".zip",
@@ -16,7 +16,7 @@ description = {
   ]],
 }
 dependencies = {
-  "lua >= 5.1, <= 5.4",
+  "lua >= 5.1, <= 5.5",
 }
 external_dependencies = {
   CAIRO = {
